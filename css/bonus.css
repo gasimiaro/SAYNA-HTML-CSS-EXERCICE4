@@ -3,7 +3,6 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
-    padding-top: -600px;
 }
 
 main h1 {
@@ -12,6 +11,7 @@ main h1 {
     top: 80%;
     margin-left: 20%;
     font-size: 60px;
+    font-weight: 200;
 }
 
 main p {

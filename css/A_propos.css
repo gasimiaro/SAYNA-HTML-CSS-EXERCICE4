@@ -1,0 +1,95 @@
+main .fond-jaune {
+    height: 555px;
+    background-image: url('../Assets/Illustration/img5.png');
+    background-color: #f1c530;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+main .text {
+    padding-top: 10%;
+    margin-left: 20%;
+}
+
+main .text h1 {
+    font-size: 90px;
+    font-weight: 100;
+    color: #fff;
+    padding-top: 20px;
+}
+
+main .text p {
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/* fond rouge */
+
+main .fond-rouge {
+    background-color: #b11313;
+    display: flex;
+    height: 800px;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+main .fond-rouge h1 {
+    font-weight: 100;
+    color: #fff;
+}
+
+main .fond-rouge p {
+    color: #fff;
+    margin-bottom: 5%;
+}
+
+MAIN .fond-rouge .formulaire {
+    margin-top: 13%;
+    margin-left: 10%;
+}
+
+main .fond-rouge .formulaire input,
+textarea {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 16px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    margin-bottom: 6%;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+main .fond-rouge .formulaire .btn {
+    width: 50%;
+    color: #fff;
+    margin-left: 25%;
+    margin-top: 12%;
+    cursor: pointer;
+}
+
+
+/* fond bleu */
+
+main .fond-bleu {
+    background-color: #114c92;
+}
+
+main .fond-bleu h1 {
+    color: #fff;
+    padding-top: 10%;
+    margin-left: 20%;
+    margin-bottom: -5%;
+}
+
+main .fond-bleu .text {
+    display: flex;
+}
+
+main .fond-bleu .text div {
+    width: 63vh;
+    margin-right: 10vh;
+}
