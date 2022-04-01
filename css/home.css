@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid green; */
+}
+
+main .back-spidy {
+    background-image: url('../Assets/Illustration/img1.png');
+    background-repeat: no-repeat;
+    width: initial;
+    height: 620px;
+    color: #fff;
+    padding-top: 250px;
+    padding-left: 10%;
+}
+
+main .back-spidy h1 {
+    font-size: 120px;
+}
+
+main .back-spidy button {
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+main .back-spidy button a {
+    text-decoration: none;
+}
+
+main .back-spidy .btn_adversaires a:active {
+    text-decoration: none;
+    color: #fff;
+}
+
+main .back-spidy .btn_adversaires {
+    background-color: transparent;
+}
+
+main .back-spidy .btn_heros a {
+    color: #b11313;
+}
+
+main .back-spidy .btn_adversaires a {
+    color: #fff;
+}
+
+main .back-spidy .p1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 150PX;
+}
+
+main .images-3 {
+    display: flex;
+    background-color: #b11313;
+    padding-left: 10%;
+    padding-bottom: 8%;
+}
+
+main .images-3 div {
+    margin-right: 7%;
+}
+
+main .images-3 p {
+    color: #fff;
+    font-weight: 100;
+}
+
+main .images-3 button {
+    padding: 15px;
+    margin-left: 27%;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+main .images-3 a {
+    text-decoration: none;
+    color: #b11313;
+}
+
+
+/* fond bleu */
+
+main .fond-bleu {
+    background-image: url('../Assets/Illustration/img5.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 555px;
+    background-color: #114c92;
+}
+
+main .fond-bleu .contenu {
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+main .fond-bleu .contenu h1 {
+    color: #fff;
+}
+
+main .fond-bleu .contenu p {
+    color: #fff;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+main .fond-bleu .contenu input {
+    margin-bottom: 3%;
+    width: 75%;
+    padding: 10px;
+    padding-left: 5%;
+    border-color: #000;
+    border-radius: 25px;
+    color: #000;
+}
+
+main .fond-bleu .contenu #btn {
+    margin-top: 5%;
+    width: 40%;
+    padding: 20px 15px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
