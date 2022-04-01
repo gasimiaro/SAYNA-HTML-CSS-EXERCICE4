@@ -10,6 +10,10 @@ footer .icon_RS img {
     background-color: #F1C530;
 }
 
+* {
+    /* border: 1px solid green; */
+}
+
 
 /* contenu */
 
@@ -45,12 +49,45 @@ main .fond-jaune {
     background-color: #F1C530;
     padding-left: 8%;
     padding-top: 4%;
+    padding-bottom: 5%;
 }
 
-main .fond-jaune .ligne-1 {
+main .fond-jaune .ligne-1,
+.ligne-2,
+.ligne-3,
+.ligne-4 {
     display: flex;
+    margin-bottom: 3%;
 }
 
-main .fond-jaune .ligne-1 div {
+main .fond-jaune .ligne-1>div,
+.ligne-2>div,
+.ligne-3>div,
+.ligne-4>div {
     padding-right: 6%;
+}
+
+main .fond-jaune .ligne-1 div .text,
+.ligne-2 div .text,
+.ligne-3 div .text,
+.ligne-4 div .text {
+    margin-top: -4px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 17.1em;
+    border: 9px solid #000;
+    border-top: 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+main .fond-jaune .ligne-1 .text p,
+.ligne-2 .text p,
+.ligne-3 .text p,
+.ligne-4 .text p {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.ligne-4 {
+    margin-left: 20%;
 }
