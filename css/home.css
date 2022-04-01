@@ -100,6 +100,7 @@ main .fond-bleu .contenu {
 
 main .fond-bleu .contenu h1 {
     color: #fff;
+    font-family: 'Far From Homecoming';
 }
 
 main .fond-bleu .contenu p {
@@ -125,4 +126,57 @@ main .fond-bleu .contenu #btn {
     color: #fff;
     background-color: transparent;
     border: 1px solid #fff;
+}
+
+
+/* fond rouge */
+
+main .fond-rouge {
+    background-image: url('../Assets/Illustration/img6.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 750px;
+    background-color: #b11313;
+}
+
+main .fond-rouge .contenu {
+    padding-top: 9%;
+    margin-left: 9%;
+}
+
+main .fond-rouge .contenu h1 {
+    color: #fff;
+}
+
+main .fond-rouge .contenu p {
+    color: #fff;
+    margin-bottom: 3%;
+}
+
+main .fond-rouge .contenu #nom,
+#mail {
+    width: 17%;
+    margin-bottom: 1%;
+    padding: 5px 15px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+main .fond-rouge .contenu .btn {
+    padding: 20px 10px;
+    color: #b11313;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    margin-left: 15%;
+    cursor: pointer;
+}
+
+main .fond-rouge .contenu .p2 {
+    display: inline-block;
+    margin-left: 1%;
+}
+
+main .fond-rouge .contenu a {
+    color: #fff;
 }
