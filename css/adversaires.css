@@ -17,11 +17,6 @@ footer .icon_RS img {
 
 /* contenu */
 
-@font-face {
-    font-family: 'far_from_homecomingregular';
-    src: url(../Assets/Far_From_Homecoming_Updated.otf);
-}
-
 main .venom {
     background-image: url('../Assets/Illustration/img7.png');
     height: 645px;

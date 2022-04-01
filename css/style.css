@@ -4,6 +4,15 @@
     /* border: 1px solid red; */
 }
 
+@font-face {
+    font-family: 'far_from_homecomingregular';
+    src: url(../Assets/Far_From_Homecoming_Updated.otf);
+}
+
+h1 {
+    font-family: 'far_from_homecomingregular';
+}
+
 header {
     background-color: #B11313;
     width: 100%;

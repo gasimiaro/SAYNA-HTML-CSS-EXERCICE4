@@ -1,0 +1,22 @@
+main {
+    background-image: url("../Assets/Illustration/img35.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    padding-top: -600px;
+}
+
+main h1 {
+    position: absolute;
+    color: #fff;
+    top: 80%;
+    margin-left: 20%;
+    font-size: 60px;
+}
+
+main p {
+    position: absolute;
+    top: 100%;
+    color: #fff;
+    margin-left: 20%;
+}
