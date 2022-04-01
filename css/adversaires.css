@@ -9,3 +9,48 @@ footer .lien select {
 footer .icon_RS img {
     background-color: #F1C530;
 }
+
+
+/* contenu */
+
+@font-face {
+    font-family: 'far_from_homecomingregular';
+    src: url(../Assets/Far_From_Homecoming_Updated.otf);
+}
+
+main .venom {
+    background-image: url('../Assets/Illustration/img7.png');
+    height: 645px;
+}
+
+main .venom h1 {
+    font-family: 'far_from_homecomingregular';
+    color: #fff;
+    font-size: 120px;
+    margin-left: 16%;
+    padding-top: 16%;
+}
+
+main .venom p {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 16%;
+    margin-top: 1%;
+}
+
+
+/* fond jaune */
+
+main .fond-jaune {
+    background-color: #F1C530;
+    padding-left: 8%;
+    padding-top: 4%;
+}
+
+main .fond-jaune .ligne-1 {
+    display: flex;
+}
+
+main .fond-jaune .ligne-1 div {
+    padding-right: 6%;
+}
