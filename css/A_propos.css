@@ -1,14 +1,15 @@
 main .fond-jaune {
     height: 555px;
     background-image: url('../Assets/Illustration/img5.png');
+    transform: scaleX(-1);
     background-color: #f1c530;
-    background-position: right;
     background-repeat: no-repeat;
 }
 
-main .text {
+main .fond-jaune .text {
+    transform: scaleX(-1);
     padding-top: 10%;
-    margin-left: 20%;
+    margin-right: 20%;
 }
 
 main .text h1 {
@@ -76,20 +77,48 @@ main .fond-rouge .formulaire .btn {
 
 main .fond-bleu {
     background-color: #114c92;
+    padding-bottom: 6%;
 }
 
 main .fond-bleu h1 {
     color: #fff;
     padding-top: 10%;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-bottom: -5%;
 }
 
 main .fond-bleu .text {
     display: flex;
+    padding-top: 10%;
+    margin-left: 15%;
 }
 
 main .fond-bleu .text div {
-    width: 63vh;
+    width: 69vh;
     margin-right: 10vh;
+}
+
+main .fond-bleu h2 {
+    color: #fff;
+    margin-left: 15%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+main .fond-bleu .RS {
+    margin-left: 19%;
+    display: flex;
+}
+
+.RS button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.RS button {
+    padding: 10px 28px;
+    margin-right: 8%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
 }
