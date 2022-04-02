@@ -9,8 +9,19 @@
     src: url(../Assets/Far_From_Homecoming_Updated.otf);
 }
 
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../Assets/Montserrat-Regular.otf);
+}
+
 h1 {
     font-family: 'far_from_homecomingregular';
+}
+
+p {
+    font-family: 'Montserrat-Regular';
+    font-size: 14px;
+    font-weight: 100;
 }
 
 header {

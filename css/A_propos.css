@@ -93,6 +93,11 @@ main .fond-bleu .text {
     margin-left: 15%;
 }
 
+main .fond-bleu ul {
+    margin-left: 6%;
+    color: #fff;
+}
+
 main .fond-bleu .text div {
     width: 69vh;
     margin-right: 10vh;

@@ -9,3 +9,113 @@ footer .lien select {
 footer .icon_RS img {
     background-color: #114c92;
 }
+
+
+/* grand titre */
+
+main .grand-titre {
+    background-image: url('../Assets/Illustration/img19.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+main .grand-titre .text {
+    color: #fff;
+    padding-top: 17%;
+    margin-left: 20%;
+}
+
+main .grand-titre .text h1 {
+    font-size: 67px;
+    font-weight: 100;
+}
+
+main .grand-titre .text p {
+    font-size: 24px;
+}
+
+
+/* fond bleu1 */
+
+main .fond-bleu1 {
+    background-color: #114C92;
+    color: #fff;
+    padding-bottom: 8%;
+}
+
+main .fond-bleu1 .titre {
+    margin-left: 13%;
+    padding-top: 3%;
+}
+
+main .fond-bleu1 .texte-video {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 13%;
+}
+
+main .fond-bleu1 .texte-video .text {
+    text-align: justify;
+    width: 35%;
+}
+
+main .fond-bleu1 .texte-video .video {
+    width: fit-content;
+}
+
+
+/* grand titre2 */
+
+main .grand-titre2 {
+    background-image: url('../Assets/Illustration/img20.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+main .grand-titre2 .text {
+    color: #fff;
+    padding-top: 10%;
+    margin-left: 15%;
+}
+
+main .grand-titre2 .text h1 {
+    font-size: 34px;
+    font-weight: 100;
+}
+
+main .grand-titre2 .text p {
+    font-size: 24px;
+}
+
+
+/* fond bleu 2 */
+
+main .fond-bleu2 {
+    background-color: #114c92;
+    color: #fff;
+}
+
+main .fond-bleu2 .ligne1 {
+    display: flex;
+    margin-left: 12%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+main .fond-bleu2 .ligne1 div {
+    width: 41%;
+    text-align: justify;
+    line-height: 20px;
+    margin-right: 5%;
+}
+
+p {
+    color: #aaa;
+}
+
+strong {
+    font-weight: 700;
+    color: #eee;
+}
